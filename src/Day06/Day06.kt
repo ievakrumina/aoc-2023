@@ -1,4 +1,7 @@
-import java.math.BigInteger
+package Day06
+
+import println
+import readInput
 import java.math.MathContext
 import kotlin.math.ceil
 import kotlin.math.floor

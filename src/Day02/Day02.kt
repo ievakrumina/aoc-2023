@@ -1,3 +1,8 @@
+package Day02
+
+import println
+import readInput
+
 fun main() {
 
     fun List<String>.findMaxValueOfColor(color: String): Int {

@@ -1,3 +1,8 @@
+package Day07
+
+import println
+import readInput
+
 fun main() {
 
     fun getCombination(str: String): PokerValues {

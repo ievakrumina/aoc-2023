@@ -1,3 +1,8 @@
+package Day03
+
+import println
+import readInput
+
 fun main() {
 
     fun Char.isValidSymbol() = this != '.' && !this.isLetter() && !this.isDigit()

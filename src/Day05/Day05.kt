@@ -1,3 +1,8 @@
+package Day05
+
+import println
+import readInput
+
 fun main() {
 
     fun List<String>.getInputMap(startValue: String): List<String> =
