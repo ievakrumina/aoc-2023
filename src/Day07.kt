@@ -85,7 +85,7 @@ fun main() {
                     else -> it
                 }
             }.joinToString("")
-            val combination = getCombination(adjustHand.sortString(), true)
+            val combination = getCombination(adjustHand.sortString())
             CamelPoker(adjustHand, fromInput[1].toInt(), combination)
         }.sortedWith(compareBy<CamelPoker> {it.combination}.reversed().thenBy { it.hand } )
         return listOfCamelPoker.mapIndexed { index, value -> value.bid*(index+1) }.sum()
